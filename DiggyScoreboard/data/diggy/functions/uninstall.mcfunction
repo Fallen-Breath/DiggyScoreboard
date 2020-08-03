@@ -45,4 +45,4 @@ scoreboard objectives remove dig-shears
 scoreboard objectives remove dig-all
 
 
-scoreboard objectives remove dig-constant
+scoreboard objectives remove dig-__constant

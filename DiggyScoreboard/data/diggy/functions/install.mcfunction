@@ -46,6 +46,6 @@ scoreboard objectives add dig-shears dummy "挖掘榜(剪刀)"
 scoreboard objectives add dig-all dummy "挖掘榜(总)"
 
 
-scoreboard objectives add dig-constant dummy
+scoreboard objectives add dig-__constant dummy
 
 
