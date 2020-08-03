@@ -1,7 +1,7 @@
 Diggy Scoreboard
 -------------------
 
-Lite datapack for tool uses related scoreboard
+Lite datapack for tool uses related scoreboard, diggy diggy~
 
 Use `/function diggy:install` to install, `/function diggy:uninstall` to uninstall
 
@@ -25,7 +25,7 @@ You can use command like `/execute as @a run scoreboard players operation @s dig
 挖掘计分板
 -------------------
 
-一个用于显示工具使用次数计分板的轻量数据包
+一个用于显示工具使用次数计分板的轻量数据包，挖挖挖~
 
 用`/function diggy:install` 来安装，`/function diggy:uninstall` 来卸载
 
