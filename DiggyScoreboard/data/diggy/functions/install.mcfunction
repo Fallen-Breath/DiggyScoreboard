@@ -38,12 +38,12 @@ scoreboard objectives add dig-u.shears minecraft.used:minecraft.shears
 
 
 # for display
-scoreboard objectives add dig-pickaxe dummy "挖掘榜(镐)"
-scoreboard objectives add dig-axe dummy "挖掘榜(斧)"
-scoreboard objectives add dig-shovel dummy "挖掘榜(锹)"
-scoreboard objectives add dig-hoe dummy "挖掘榜(锄)"
-scoreboard objectives add dig-shears dummy "挖掘榜(剪刀)"
-scoreboard objectives add dig-all dummy "挖掘榜(总)"
+scoreboard objectives add dig-pickaxe dummy "Diggy (pickaxe)"
+scoreboard objectives add dig-axe dummy "Diggy (axe)"
+scoreboard objectives add dig-shovel dummy "Diggy (shovel)"
+scoreboard objectives add dig-hoe dummy "Diggy (hoe)"
+scoreboard objectives add dig-shears dummy "Diggy (shears)"
+scoreboard objectives add dig-all dummy "Diggy (sum)"
 
 
 scoreboard objectives add dig-__constant dummy
