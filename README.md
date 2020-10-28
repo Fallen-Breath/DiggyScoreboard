@@ -16,7 +16,7 @@ There are 6 scoreboards are for displaying:
 
 Example usage: `/scoreboard objectives setdisplay sidebar dig-all`
 
-Scoreboard display names are store in `data/diggy/functions/install.mcfunction`, change them if you want custom names before install
+Scoreboard display names are store in `data/diggy/functions/install.mcfunction`, change them if you want custom names before install. Of course you can still use command like `/scoreboard objectives modify dig-pickaxe displayname my_pickuse` to change the display name after install
 
 You can use command like `/execute as @a run scoreboard players operation @s dig-all += @s my_old_pickuse` to update diggy scoreboards from existing scoreboard
 
@@ -40,6 +40,6 @@ You can use command like `/execute as @a run scoreboard players operation @s dig
 
 用法举例： `/scoreboard objectives setdisplay sidebar dig-all`
 
-计分板的名字储存于 `data/diggy/functions/install.mcfunction`，如果你想要自定义名称的话请在安装前修改
+计分板的显示名字储存于 `data/diggy/functions/install.mcfunction`，如果你想要自定义名称的话请在安装前修改。不过当然，在安装后你还是可以使用形如 `/scoreboard objectives modify dig-pickaxe displayname 挖掘榜` 的指令来修改计分板的显示名字
 
 你可以用形如 `/execute as @a run scoreboard players operation @s dig-all += @s my_old_pickuse` 的指令来将已有的计分板导入数据至该挖掘计分板
