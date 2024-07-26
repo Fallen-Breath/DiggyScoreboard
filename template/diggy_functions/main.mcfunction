@@ -10,7 +10,7 @@ execute as @a run scoreboard players operation @s dig-u.s_pickaxe = const0 dig-_
 execute as @a run scoreboard players operation @s dig-u.i_pickaxe = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.d_pickaxe = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.g_pickaxe = const0 dig-__constant
-execute as @a run scoreboard players operation @s dig-u.n_pickaxe = const0 dig-__constant
+execute as @a run scoreboard players operation @s dig-u.n_pickaxe = const0 dig-__constant  //NETHERITE//
 
 # axe
 execute as @a run scoreboard players operation @s dig-u.axe += @s dig-u.w_axe
@@ -18,13 +18,13 @@ execute as @a run scoreboard players operation @s dig-u.axe += @s dig-u.s_axe
 execute as @a run scoreboard players operation @s dig-u.axe += @s dig-u.i_axe
 execute as @a run scoreboard players operation @s dig-u.axe += @s dig-u.d_axe
 execute as @a run scoreboard players operation @s dig-u.axe += @s dig-u.g_axe
-execute as @a run scoreboard players operation @s dig-u.axe += @s dig-u.n_axe
+execute as @a run scoreboard players operation @s dig-u.axe += @s dig-u.n_axe  //NETHERITE//
 execute as @a run scoreboard players operation @s dig-u.w_axe = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.s_axe = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.i_axe = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.d_axe = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.g_axe = const0 dig-__constant
-execute as @a run scoreboard players operation @s dig-u.n_axe = const0 dig-__constant
+execute as @a run scoreboard players operation @s dig-u.n_axe = const0 dig-__constant  //NETHERITE//
 
 # shovel
 execute as @a run scoreboard players operation @s dig-u.shovel += @s dig-u.w_shovel
@@ -32,13 +32,13 @@ execute as @a run scoreboard players operation @s dig-u.shovel += @s dig-u.s_sho
 execute as @a run scoreboard players operation @s dig-u.shovel += @s dig-u.i_shovel
 execute as @a run scoreboard players operation @s dig-u.shovel += @s dig-u.d_shovel
 execute as @a run scoreboard players operation @s dig-u.shovel += @s dig-u.g_shovel
-execute as @a run scoreboard players operation @s dig-u.shovel += @s dig-u.n_shovel
+execute as @a run scoreboard players operation @s dig-u.shovel += @s dig-u.n_shovel  //NETHERITE//
 execute as @a run scoreboard players operation @s dig-u.w_shovel = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.s_shovel = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.i_shovel = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.d_shovel = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.g_shovel = const0 dig-__constant
-execute as @a run scoreboard players operation @s dig-u.n_shovel = const0 dig-__constant
+execute as @a run scoreboard players operation @s dig-u.n_shovel = const0 dig-__constant  //NETHERITE//
 
 # hoe
 execute as @a run scoreboard players operation @s dig-u.hoe += @s dig-u.w_hoe
@@ -46,13 +46,13 @@ execute as @a run scoreboard players operation @s dig-u.hoe += @s dig-u.s_hoe
 execute as @a run scoreboard players operation @s dig-u.hoe += @s dig-u.i_hoe
 execute as @a run scoreboard players operation @s dig-u.hoe += @s dig-u.d_hoe
 execute as @a run scoreboard players operation @s dig-u.hoe += @s dig-u.g_hoe
-execute as @a run scoreboard players operation @s dig-u.hoe += @s dig-u.n_hoe
+execute as @a run scoreboard players operation @s dig-u.hoe += @s dig-u.n_hoe  //NETHERITE//
 execute as @a run scoreboard players operation @s dig-u.w_hoe = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.s_hoe = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.i_hoe = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.d_hoe = const0 dig-__constant
 execute as @a run scoreboard players operation @s dig-u.g_hoe = const0 dig-__constant
-execute as @a run scoreboard players operation @s dig-u.n_hoe = const0 dig-__constant
+execute as @a run scoreboard players operation @s dig-u.n_hoe = const0 dig-__constant  //NETHERITE//
 
 # total
 execute as @a run scoreboard players operation @s dig-all += @s dig-u.pickaxe
