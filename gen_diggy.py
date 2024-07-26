@@ -10,19 +10,19 @@ if (sys.version_info.major, sys.version_info.minor) < (3, 9):
 
 
 MC_CONFIG = {
-	'115': {
+	'1.15': {
 		'diggy_function_path': 'data/diggy/functions',
 		'tag_function_path': 'data/minecraft/tags/functions',
 		'pack_format': 4,
 		'netherite': False
 	},
-	'116': {
+	'1.16': {
 		'diggy_function_path': 'data/diggy/functions',
 		'tag_function_path': 'data/minecraft/tags/functions',
 		'pack_format': 5,
 		'netherite': True
 	},
-	'121': {
+	'1.21': {
 		'diggy_function_path': 'data/diggy/function',
 		'tag_function_path': 'data/minecraft/tags/function',
 		'pack_format': 48,
@@ -69,8 +69,7 @@ def gen_one(mc: str, lang: str, output_path: Path):
 
 	with zipfile.ZipFile(output_path, 'w', compression=zipfile.ZIP_DEFLATED) as zipf:
 		def write(path_in_datapack: Path or str, str_to_write: str):
-			path_in_datapack = Path(path_in_datapack)
-			zipf.writestr((DATAPACK_NAME / path_in_datapack).as_posix(), str_to_write)
+			zipf.writestr(Path(path_in_datapack).as_posix(), str_to_write)
 
 		# pack.mcmeta
 		s = read_file(PACK_META_FILE)
